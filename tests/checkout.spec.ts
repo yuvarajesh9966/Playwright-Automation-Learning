@@ -2,7 +2,7 @@ import { test, expect } from "../fixtures/ui_fixtures";
 import { backpack } from "../test-data/productData";
 import { customer1 } from "../test-data/checkoutData";
 
-test("CHECKOUT-001 - Complete Purchase", async ({
+test("@smoke CHECKOUT-001 - Complete Purchase", async ({
   page,
   productPage,
   cartPage,
